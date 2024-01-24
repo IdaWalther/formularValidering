@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulärvaldering</title>
+</head>
+<body>
+
+    <!-- Form Container -->
+    <div class="form-container">
+        <h2 id="errorMsg"></h2>
+        <!-- Login Form -->
+        <form id="loginForm">
+            <div>
+                <label for="username">Användarnamn:</label>
+                <input type="text" id="username">
+            </div>
+            <div>
+                <label for="password">Lösenord:</label>
+                <input type="password" id="password">
+            </div>
+            <button id="btnLoggaIn">Logga in</button>
+            <button id="btnRegistrera">Registrera</button>
+        </form>
+
+        <!-- Registration Form -->
+        <form class="" id="registerForm">
+            <div>
+                <label for="uName">Användarnamn:</label>
+                <input type="text" id="uName">
+            </div>
+            <div>
+                <label for="pWord">Lösenord:</label>
+                <input type="password" id="pWord">
+            </div>
+            <div>
+                <label for="pWordAgain">Ange lösenord igen:</label>
+                <input type="password" id="pWordAgain">
+            </div>
+            <button id="newUserLogin">Logga in</button>
+        </form>
+    </div>
+
+    <!-- Page Content -->
+    <div class="content-container" id="contentContainer">
+        <button id="btnLoggaUt">Logga ut</button>
+        <h1>Välkommen in</h1>
+    </div>
+    <script src="/characters.js"></script>
+    <script src="/users.js"></script>
+    <script src="/script.js"></script>
+</body>
+</html>
